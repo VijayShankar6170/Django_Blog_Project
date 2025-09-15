@@ -1,0 +1,1 @@
+A web application for creating and sharing blog posts, developed with Python and Django. This project showcases skills in backend development, database management with models, and template rendering for the front-end.
