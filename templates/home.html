@@ -32,7 +32,7 @@
             <div class="card-body">
               <h5 class="card-title">{{post.title | truncatechars:30}}</h5>
               <p class="card-text">{{post.newcontent | truncatechars:150 | safe}}</p>
-              <a href="{% url " blogpost" post.slug %}" class="btn btn-primary">Go somewhere</a>
+              <a href="{% url "blogpost" post.slug %}" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
